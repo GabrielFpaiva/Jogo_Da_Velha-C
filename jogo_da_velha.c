@@ -262,10 +262,10 @@ int main(void) {
   fgets(jogador_o_nome, 30, stdin);
   //system("cls");
   do {
-    limpar_tabuleiro();
-    posicao();
     vitoria = 0;
     ciclo = 0;
+    limpar_tabuleiro();
+    posicao();
     jogo_da_velha();
     ranking();
     printf("\n\t\t\t\t deseja jogar novamente?\n\t\t\t\t s - Sim\n\t\t\t\t n - Nao\n");
