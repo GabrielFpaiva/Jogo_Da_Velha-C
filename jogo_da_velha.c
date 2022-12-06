@@ -237,7 +237,7 @@ void jogo_da_velha() {
     check_victory();
     ciclo++; 
   } while (vitoria == 0 && ciclo < 9);
-  if(ciclo == 9){
+  if(ciclo == 9 && vitoria == 0){
     printf("\t\t\t\tDeu Velha!! Ninguem pontuou!\n\n");
   }
 }
