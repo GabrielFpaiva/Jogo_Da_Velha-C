@@ -1,2 +1,2 @@
-# Jogo_Da_Velha-C
-Trabalho da faculdade.
+# Tic_tac_toe-C
+College work.
